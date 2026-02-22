@@ -18,7 +18,7 @@
 
 确保您的电脑已安装：
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows/Mac/Linux)
-- NVIDIA 显卡驱动 (推荐)
+- NVIDIA 显卡驱动 
 
 ### 2. 拉取镜像 & 下载模型
 
