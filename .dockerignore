@@ -1,0 +1,24 @@
+# 排除虚拟磁盘和无关文件
+DockerDesktopWSL/
+DockerDesktopWSL
+
+# 排除 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 排除 Git 缓存
+.git/
+
+# 排除模型文件（因为它太大，通常运行时挂载，不适合打包进 docker image）
+# 如果您真的想把模型打进镜像里方便分发，请注释掉下面这一行
+# 但建议保留排除，运行时用 -v 挂载 model 目录，这样镜像体积小
+model/
+
+# 排除部署脚本
+deploy_qwen.ps1
+
+# 排除临时文件
+start.txt
+start
