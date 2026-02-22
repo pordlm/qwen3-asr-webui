@@ -56,7 +56,7 @@ docker run -d --gpus all -p 8000:80 \
 
 ## 截图
 
-*(可以在这里放一张 WebUI 的截图)*
+![Qwen3-ASR WebUI Interface](example.png)
 
 ## 许可证
 
