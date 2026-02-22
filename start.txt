@@ -1,3 +1,0 @@
-.\deploy_qwen.ps1
-python /data/shared/Qwen3-ASR/web_ui.py
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
